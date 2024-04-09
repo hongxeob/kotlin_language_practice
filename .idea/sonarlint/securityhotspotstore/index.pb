@@ -72,3 +72,9 @@ Q.idea/sonarlint/securityhotspotstore/c/9/c95e50b2093a2a048cdeaa51343fa2f9ef568c
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+N
+src/main/kotlin/InputNumber.kt,4/d/4d470ee2288847c04397e3ed3c997d647dc19c59
+T
+$src/test/kotlin/InputNumberTest.java,1/1/118d82b49be3fcaa911d67e74b58c8e77b0efaa5
+R
+"src/test/kotlin/InputNumberTest.kt,4/0/40630952077343b42eb2486d7e9b3c2afe4d204c
