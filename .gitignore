@@ -1,42 +1,40 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+src/main/resources/plugins/*.jar
+out
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# ---- Sonar
+.sonar
+
+# ---- IntelliJ IDEA
 *.iws
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+.idea
 
-### Eclipse ###
-.apt_generated
+# ---- Eclipse
 .classpath
-.factorypath
 .project
 .settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# ---- Maven
+target
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# ---- Mac OS X
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Gradle
+.gradle
+classes
+build
+.scannerwork/
