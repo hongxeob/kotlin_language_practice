@@ -2,24 +2,24 @@ package org.example
 
 class Calculator {
 
-    fun add(num1: Int, num2: Int): Int {
-        return num1 + num2
+    fun add(inputNumber1: InputNumber, inputNumber2: InputNumber): Int {
+        return inputNumber1.num + inputNumber2.num
     }
 
-    fun minus(num1: Int, num2: Int): Int {
-        return num1 - num2
+    fun minus(inputNumber1: InputNumber, inputNumber2: InputNumber): Int {
+        return inputNumber1.num - inputNumber2.num
     }
 
-    fun multiply(num1: Int, num2: Int): Int {
-        return num1 * num2
+    fun multiply(inputNumber1: InputNumber, inputNumber2: InputNumber): Int {
+        return inputNumber1.num * inputNumber2.num
     }
 
-    fun divide(num1: Int, num2: Int): Int {
-        if (num1 == 0 || num2 == 0) {
+    fun divide(inputNumber1: InputNumber, inputNumber2: InputNumber): Int {
+        if (inputNumber1.num == 0 || inputNumber2.num == 0) {
             throw IllegalArgumentException("Division by zero")
         }
 
-        return num1 / num2
+        return inputNumber1.num / inputNumber2.num
     }
 
 }

@@ -9,15 +9,12 @@ fun main(array: Array<String>) = with(Scanner(System.`in`)) {
 
     println("숫자 두개 입력하세요.")
 
-    try {
-        num1 = nextInt()
-        num2 = nextInt()
-    } catch (e: InputMismatchException) {
-        println("[ERROR] 타입 에러 = $e")
-        return
-    }
+    val inputNumber1 = InputNumber(nextLine())
+    val inputNumber2 = InputNumber(nextLine())
+
+
 
     println("\n===결과===")
-    println("$num1 + $num2 = ${calculator.add(num1, num2)}")
-    println("$num1 - $num2 = ${calculator.minus(num1, num2)}")
+    println("$inputNumber1 + $inputNumber2 = ${calculator.add(inputNumber1, inputNumber2)}")
+    println("$inputNumber1 - $inputNumber2 = ${calculator.minus(inputNumber1, inputNumber2)}")
 }
